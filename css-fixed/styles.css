@@ -1,0 +1,32 @@
+/*
+CSS Positions: static(default), absolute, relative, fixed, sticky
+
+Postion - Relative
+we can use properties like top, bottom, left, right
+relative to its normal position
+means apni normal position ke relative vo hilega and will leave a gap at its normal position
+*/
+
+/*  position: static;
+      position is by default static */
+
+/* Absolute - means apne parent position k relative position will move and will not leave a gap */
+
+.container {
+  border: 2px solid red;
+  background-color: khaki;
+  height: 3444px;
+}
+.box {
+  border: 2px solid rgb(31, 82, 21);
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+  display: inline-block;
+}
+
+#box3 {
+  position: fixed;
+  right: 5px;
+  top: 250px;
+}

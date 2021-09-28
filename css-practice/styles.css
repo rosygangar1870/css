@@ -1,0 +1,28 @@
+/*
+CSS Positions: static(default), absolute, relative, fixed, sticky
+
+Postion - Relative
+we can use properties like top, bottom, left, right
+relative to its normal position
+means apni normal position ke relative vo hilega
+*/
+.box {
+  border: 2px solid rgb(31, 82, 21);
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+  display: inline-block;
+}
+
+#box3 {
+  /*  position: static;
+  position is by default static */
+
+  position: relative;
+  top: 30px;
+}
+
+#box4 {
+  position: relative;
+  left: 250px;
+}

@@ -1,0 +1,20 @@
+.box {
+  background-color: rgb(228, 215, 215);
+  color: black;
+  font-size: 72px;
+  text-align: center;
+  display: none;
+}
+
+@media (max-width: 300px) {
+  /* if max is 300 and min = 0, then between 0 to 500 display will be block*/
+  #box1 {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  #box2 {
+    display: block;
+  }
+}

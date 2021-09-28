@@ -1,0 +1,6 @@
+.container {
+  background-color: rgb(233, 230, 227);
+  border: 3px solid rgb(12, 12, 104);
+  padding: 20px; /* border k andar space */
+  margin: 15px; /* border k bahar se space */
+}
